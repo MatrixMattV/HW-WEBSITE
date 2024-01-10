@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url("pexels-thorsten-technoman-338504.jpg");
+    background-position: center;
+    background-size: cover no-repeat;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #333;
+} 
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 16px;
+    margin-left: 20px;
+    color: #333;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:active {
+    color: #fff;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.main-content {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main-content h1 {
+    color: blue;
+    font-size: 3rem;
+    max-width: 600px;
+}
+
+.main-content p {
+    font-size: 20px;
+    color: blue;
+    font-weight: 500;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.main-content button {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background: blue;
+    color: #fff;
+    padding: 12px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.main-content button:hover {
+    color: blue;
+    background: #fff;
+}
